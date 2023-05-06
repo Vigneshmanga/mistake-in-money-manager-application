@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+.bg-container {
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 130px;
+}
+.content-container {
+  width: 900px;
+}
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 40px;
+}
+.user-name {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #475569;
+  font-weight: bold;
+}
+.welcome-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #475569;
+}
+.app-name {
+  color: #0b69ff;
+}
+.form-and-history-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.form-el {
+  width: 350px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #7e858e;
+  border-radius: 10px;
+  align-items: flex-start;
+}
+.add-transaction-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #475569;
+  font-weight: bold;
+}
+.label {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #7e858e;
+  padding: 0px;
+  margin: 0px;
+}
+.input-el {
+  border: 1px solid #7e858e;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+.submit-btn {
+  background-color: #0b69ff;
+  color: white;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+}
+.history-container {
+  border: 1px solid #7e858e;
+  border-radius: 10px;
+  padding: 15px;
+  padding-top: 30px;
+  flex-grow: 1;
+  margin-left: 30px;
+}
+.history-text {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #475569;
+  font-weight: bold;
+}
+.history-items-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  border: 1px solid #7e858e;
+  width: 100%;
+}
+.list-header {
+  display: flex;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  padding: 3px;
+  margin: 0px;
+}
+.table-el {
+  border: 1px solid #7e858e;
+  width: 100%;
+}
+.header {
+  width: 25%;
+  padding: 6px;
+  margin: 0px;
+  text-align: center;
+}

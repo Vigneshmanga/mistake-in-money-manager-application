@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+.column-value {
+  width: 25%;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #334155;
+  text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+}
+.list-item {
+  border-top: 1px solid #7e858e;
+  display: flex;
+}
+.delete-image {
+  height: 24px;
+}
+.delete-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
